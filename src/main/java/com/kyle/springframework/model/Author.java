@@ -1,4 +1,4 @@
-package com.kyle.springframework.models;
+package com.kyle.springframework.model;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -18,7 +18,7 @@ public class Author {
 	private String firstname;
 	private String lastname;
 	
-	@ManyToMany
+	@ManyToMany(mappedBy = "authors")
 	private Set<Book> books = new HashSet<>();
 	
 	public Author(String firstname, String lastname) {
