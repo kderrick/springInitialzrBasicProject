@@ -1,4 +1,4 @@
-package com.kyle.springframework.model;
+package com.kyle.springframework.spring5webapp;
 
 import java.util.HashSet;
 import java.util.Set;
