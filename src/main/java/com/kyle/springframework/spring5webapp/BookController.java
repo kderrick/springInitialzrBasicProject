@@ -1,10 +1,8 @@
-package com.kyle.springframework.controllers;
+package com.kyle.springframework.spring5webapp;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import com.kyle.springframework.spring5webapp.BookRepository;
 
 @Controller
 public class BookController {
