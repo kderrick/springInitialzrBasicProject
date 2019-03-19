@@ -25,30 +25,30 @@ public class Author {
 		
 	}
 
-	public Author(String firstname, String lastname) {
-		this.firstName = firstname;
-		this.lastName = lastname;
+	public Author(String firstName, String lastName) {
+		this.firstName = firstName;
+		this.lastName = lastName;
 	}
 
-	public Author(String firstname, String lastname, Set<Book> books) {
-		this.firstName = firstname;
-		this.lastName = lastname;
+	public Author(String firstName, String lastName, Set<Book> books) {
+		this.firstName = firstName;
+		this.lastName = lastName;
 		this.books = books;
 	}
 
-	public String getFirstname() {
+	public String getFirstName() {
 		return firstName;
 	}
 
-	public void setFirstname(String firstname) {
-		this.firstName = firstname;
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
 	}
 
-	public String getLastname() {
+	public String getLastName() {
 		return lastName;
 	}
 
-	public void setLastname(String lastname) {
+	public void setLastName(String lastname) {
 		this.lastName = lastname;
 	}
 
